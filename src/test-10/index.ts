@@ -26,4 +26,4 @@ const sortNumbers_davide_02 = (list: number[], order: 'asc' | 'desc' = 'asc'): n
 };
 
 const sortNumbers_davide_03 = (list: number[], order: 'asc' | 'desc' = 'asc'): number[] => 
-     list.sort((a, b) => order === 'desc' ? b-a : a-b);
+    list.sort((a, b) => order === 'desc' ? b-a : a-b);
