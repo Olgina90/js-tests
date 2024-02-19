@@ -1,14 +1,14 @@
 import { describe, expect, test } from "vitest";
-import { areEqual } from ".";
+import { areUnequal } from ".";
 
 describe("quando gli argomenti `a` e `b` sono disuguali", () => {
-  test("`areEqual` dovrebbe tornare `false`", () => {
-    expect(areEqual(3, 2)).toBe(false);
+  test("`areUnequal` dovrebbe tornare `true`", () => {
+    expect(areUnequal(3, 2)).toBe(true);
   });
 });
 
 describe("quando gli argomenti `a` e `b` sono uguali", () => {
-  test("`areEqual` dovrebbe tornare `true`", () => {
-    expect(areEqual(5, 5)).toBe(true);
+  test("`areUnequal` dovrebbe tornare `false`", () => {
+    expect(areUnequal(5, 5)).toBe(false);
   });
 });
