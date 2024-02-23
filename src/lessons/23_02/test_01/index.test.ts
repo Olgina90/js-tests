@@ -15,3 +15,9 @@ describe.each([
     });
   });
 });
+
+describe("quando value e 2 e min e 0 e max e 5", () => {
+  test("isInRange dovrebbe tornare true", () => {
+    expect(isInRange(2, 0, 5)).toBe(true);
+  });
+});
