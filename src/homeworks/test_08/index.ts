@@ -1,4 +1,4 @@
-export const max = (a:number, b:number):number => a > b ? a : b
+export const max = (...values:number[]):number => Math.max(...values)
 // {
 //     if(a > b){
 //         return a

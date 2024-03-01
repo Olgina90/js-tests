@@ -1,7 +1,1 @@
-export const min = (a: number, b:number): number => (a < b ? a : b)
-// {
-//     if(a<b){
-//         return a
-//     }
-//     return b
-// }
+export const min = (...values: number[]): number => Math.min(...values);
