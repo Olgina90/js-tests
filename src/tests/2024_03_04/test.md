@@ -94,28 +94,28 @@ Questa funzione ritorna il numero piu grande tra gli argomenti.
 ## Risultati
 
 - Test #1:
-    - Test passati ( /4)
-    - Typescript check ( /5)
-    - Funzionalita' ( /5)
+    - Test passati (4/4)
+    - Typescript check (5/5)
+    - Funzionalita' (5/5)
 - Test #2:
-    - Test passati ( /4)
-    - Typescript check ( /5)
-    - Funzionalita' ( /5)
+    - Test passati (4/4)
+    - Typescript check (5/5)
+    - Funzionalita' (5/5)
 - Test #3:
-    - Test passati ( /4)
-    - Typescript check ( /5)
-    - Funzionalita' ( /5)
+    - Test passati (4/4)
+    - Typescript check (4/5)
+    - Funzionalita' (4/5)
 - Test #4:
-    - Test passati ( /4)
-    - Typescript check ( /5)
-    - Funzionalita' ( /5)
+    - Test passati (3/4)
+    - Typescript check (5/5)
+    - Funzionalita' (2/5)
 - Test #5:
-    - Test passati ( /4)
-    - Typescript check ( /5)
-    - Funzionalita' ( /5)
+    - Test passati (4/4)
+    - Typescript check (5/5)
+    - Funzionalita' (5/5)
 
-- Tempo: ( /20)
+- Tempo: (0/20)
 
-- Condotta: ( /10)
+- Condotta: (9/10)
 
-## Totale: ( /100)
+## Totale: (73/100)
