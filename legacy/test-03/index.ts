@@ -1,1 +1,1 @@
-export const myBoolean = true;
+export const myBoolean = true

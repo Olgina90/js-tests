@@ -1,1 +1,1 @@
-export const max = (...values:number[]): number => Math.max(...values)
+export const max = (...values: number[]) => Math.max(...values)

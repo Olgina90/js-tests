@@ -1,1 +1,1 @@
-export const min = (...values:number[]): number => Math.min(...values)
+export const min = (...values:number[]) => Math.min(...values)
