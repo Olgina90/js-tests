@@ -1,4 +1,5 @@
-export const isInRange = (value: number, min: number, max: number): boolean => {
+export const isInRange = (value: number, min: number, max: number): boolean => 
+{
   //    if(value>min){
   //     if(value<max){
   //         return true

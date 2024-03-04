@@ -1,1 +1,1 @@
-export const toString = (value: unknown):string => String(value)
+export const toString = (value: unknown): string => String(value);

@@ -1,1 +1,1 @@
-export const myColor = "yellow";
+export const myColor = 'yellow' 

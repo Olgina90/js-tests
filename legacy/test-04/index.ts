@@ -1,3 +1,4 @@
 export const getNextNumber = (value: number) => {
-  return value + 1;
-};
+    return value + 1
+}
+

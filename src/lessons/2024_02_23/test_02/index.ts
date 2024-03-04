@@ -1,5 +1,1 @@
-export const isValid = (
-  value: number,
-  first: number,
-  second: number
-): boolean => value === first || value === second;
+export const isValid = (value: number, a: number, b: number): boolean => value === a || value === b
