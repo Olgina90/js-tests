@@ -90,3 +90,32 @@ Questa funzione ha tanti argomenti:
 Questa funzione ritorna un numero
 
 Questa funzione ritorna il numero piu grande tra gli argomenti.
+
+## Risultati
+
+- Test #1:
+    - Test passati ( /4)
+    - Typescript check ( /5)
+    - Funzionalita' ( /5)
+- Test #2:
+    - Test passati ( /4)
+    - Typescript check ( /5)
+    - Funzionalita' ( /5)
+- Test #3:
+    - Test passati ( /4)
+    - Typescript check ( /5)
+    - Funzionalita' ( /5)
+- Test #4:
+    - Test passati ( /4)
+    - Typescript check ( /5)
+    - Funzionalita' ( /5)
+- Test #5:
+    - Test passati ( /4)
+    - Typescript check ( /5)
+    - Funzionalita' ( /5)
+
+- Tempo: ( /20)
+
+- Condotta: ( /10)
+
+## Totale: ( /100)
