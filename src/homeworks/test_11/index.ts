@@ -1,0 +1,1 @@
+export const getValueOrOne = (value: number): number => value || 1
