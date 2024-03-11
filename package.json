@@ -1,7 +1,7 @@
 {
   "scripts": {
     "test": "vitest",
-    "test:ui": "./scripts/test.sh",
+    "test:ui": "sh ./scripts/test.sh",
     "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
