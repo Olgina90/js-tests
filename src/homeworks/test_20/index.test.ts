@@ -15,7 +15,7 @@ describe("se `name` ha nome, middlename e cognome", () => {
 
 describe("se `name` ha nome e cognome in minuscolo ", () => {
   test("dovrebbe tornare le iniziali in maiuscolo", () => {
-    expect(initials("davide bruno")).toBe("DRB");
+    expect(initials("davide bruno")).toBe("DB");
   });
 });
 

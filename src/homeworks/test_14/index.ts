@@ -1,1 +1,2 @@
-export const nthLetter = (word: string, index: number): string | null => word[index] || null
+export const nthLetter = (word: string, index: number): string | null =>
+  word[index] || null;
