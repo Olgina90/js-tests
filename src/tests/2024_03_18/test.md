@@ -1,4 +1,4 @@
-# [2024/03/04] Javascript Basics
+# [2024/03/18] Javascript Basics
 
 ## Regole
 
@@ -125,3 +125,33 @@ valueOrNothing(); // ritorna "nothing"
 valueOrNothing(false); // ritorna "nothing"
 valueOrNothing(true); // ritorna true
 ```
+
+## Risultati
+
+- Test #1:
+  - Test passati (0/4)
+  - Typescript check (5/5)
+  - Funzionalita' (4/5)
+- Test #2:
+  - Test passati (0/4)
+  - Typescript check (2/5)
+  - Funzionalita' (0/5)
+- Test #3:
+  - Test passati (0/4)
+  - Typescript check (5/5)
+  - Funzionalita' (5/5)
+- Test #4:
+  - Test passati (0/4)
+  - Typescript check (5/5)
+  - Funzionalita' (5/5)
+- Test #5:
+
+  - Test passati (0/4)
+  - Typescript check (5/5)
+  - Funzionalita' (5/5)
+
+- Tempo: (7/20)
+
+- Condotta: (10/10)
+
+## Totale: (58/100)
