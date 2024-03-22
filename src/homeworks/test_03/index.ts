@@ -1,8 +1,9 @@
-export const isInRange =(value:number,min:number,max:number):boolean => {
-    if (value < min || value > max) {
-        return false;
+export const isInRange = (value: number, min: number, max: number): boolean => {
+    if( value < min || value > max){
+        return false
     }
-    return true;
+    return true
+}
 
     // if (value < min){
     //     return false
@@ -11,4 +12,5 @@ export const isInRange =(value:number,min:number,max:number):boolean => {
     //     return false
     // }
     // return true
-}
+
+
