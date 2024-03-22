@@ -1,5 +1,5 @@
-export const initials = (word: string): string => {
-  const list = word.split(" ");
+export const initials = (name: string): string => {
+  const list = name.split(" ");
   const firstName = list[0];
   const firstInitial = firstName[0];
 

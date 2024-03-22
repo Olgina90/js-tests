@@ -1,8 +1,8 @@
-export const compare =(a:number, b:number):'>' | '<' | '=' => {
-    if (a > b){
+export const compare = (a: number, b: number): '>' | '<' | '=' => {
+    if(a > b){
         return '>'
     }
-    if(a<b){
+    if(a < b){
         return '<'
     }
     return '='
