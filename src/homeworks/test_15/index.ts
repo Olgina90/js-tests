@@ -1,1 +1,1 @@
-export const split = (word: string): string[] => word.split('')
+export const split = (word: string): string[] => word.split("");

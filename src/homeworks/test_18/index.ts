@@ -1,1 +1,1 @@
-export const spacedAndUpperCase = (word:string): string => word.split('').join(' ').toUpperCase()
+export const spacedAndUpperCase = (word: string): string => word.split('').join(' ').toUpperCase()
