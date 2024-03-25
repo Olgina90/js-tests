@@ -1,0 +1,1 @@
+export const mergelist = (firstList: string[], secondList: string[]): string[] => [...firstList, ...secondList]

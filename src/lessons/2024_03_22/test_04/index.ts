@@ -1,0 +1,1 @@
+export const different = (first: unknown, second: unknown): boolean => first !== second

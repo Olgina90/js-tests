@@ -1,0 +1,1 @@
+export const falsy = (arg: unknown): boolean => !arg
