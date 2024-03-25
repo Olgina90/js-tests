@@ -7,7 +7,7 @@ describe("se arg e' una stringa non vuota", () => {
   });
 });
 describe("se arg e' una stringa vuota", () => {
-  test("dovrebbe tornare `true`", () => {
+  test("dovrebbe tornare `false`", () => {
     expect(truthy("")).toBe(false);
   });
 });

@@ -1,0 +1,1 @@
+export const join =(...arg:string[]): string => arg.join('') 
