@@ -10,11 +10,9 @@ describe("se la lista e' vuota", () => {
 describe("se la lista ha nomi", () => {
   test("dovrebbe tornare una lista di dati", () => {
     expect(getData(["Olga", "Claudio", "Davide"])).toStrictEqual([
-      [
-        { name: "Olga", position: 1 },
-        { name: "Claudio", position: 2 },
-        { name: "Davide", position: 3 },
-      ],
+      { name: "Olga", position: 1 },
+      { name: "Claudio", position: 2 },
+      { name: "Davide", position: 3 },
     ]);
   });
 });

@@ -1,3 +1,5 @@
+type Data = { name: string; age: number };
+type DataAndPos = Data & { position: number };
 /**
  * getDataWithPosition()
  *
@@ -8,3 +10,9 @@
  * @argument data - { name: string; age: number }[]
  * @returns data - { name: string; age: number, position: number }[]
  */
+export const getDataWithPosition = (data: Data[]): DataAndPos[] =>
+  data.map(({name, age}, index) => ({
+    name,
+    age,
+    position: index + 1,
+  }));
