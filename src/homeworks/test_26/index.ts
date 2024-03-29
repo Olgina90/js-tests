@@ -1,1 +1,2 @@
-export const join =(...arg:string[]): string => arg.join('') 
+export const join = (...list: string[]): string => list.join("");
+
