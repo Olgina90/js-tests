@@ -9,6 +9,6 @@ describe("se non ci sono argomenti", () => {
 
 describe("se gli argomenti sono numeri", () => {
   test("dovrebbe tornare una lista con i numeri incrementati del loro indice", () => {
-    expect(valuesPlusIndex([0, 1, 3, 6, 8])).toStrictEqual([0, 2, 5, 9, 12]);
+    expect(valuesPlusIndex(0, 1, 3, 6, 8)).toStrictEqual([0, 2, 5, 9, 12]);
   });
 });

@@ -1,1 +1,4 @@
-export const addDavideToList = (list: string[]): string[] => [...list, 'Davide']
+export const addDavideToList = (list: string[]): string[] => [
+  ...list,
+  "Davide",
+];

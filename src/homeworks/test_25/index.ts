@@ -1,4 +1,4 @@
-export const mergeLists = (listA: string[], listB: string[]): string[] => [
-  ...listA,
-  ...listB,
-];
+export const mergeLists = (
+  firstList: string[],
+  secondList: string[]
+): string[] => [...firstList, ...secondList];
