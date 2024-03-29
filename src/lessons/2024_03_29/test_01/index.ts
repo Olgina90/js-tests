@@ -1,3 +1,4 @@
+type Data = { name: string; position: number };
 /**
  * getData()
  *
@@ -8,3 +9,5 @@
  * @argument names - string[]
  * @returns data - { name: string; position: number }[]
  */
+export const getData = (names: string[]): Data[] =>
+  names.map((item, index) => ({ name: item, position: index + 1 }));

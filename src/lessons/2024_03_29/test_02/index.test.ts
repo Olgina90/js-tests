@@ -16,11 +16,9 @@ describe("se la lista ha nomi", () => {
         { name: "Davide", age: 34 },
       ])
     ).toStrictEqual([
-      [
-        { name: "Olga", age: 30, position: 1 },
-        { name: "Claudio", age: 42, position: 2 },
-        { name: "Davide", age: 34, position: 3 },
-      ],
+      { name: "Olga", age: 30, position: 1 },
+      { name: "Claudio", age: 42, position: 2 },
+      { name: "Davide", age: 34, position: 3 },
     ]);
   });
 });
