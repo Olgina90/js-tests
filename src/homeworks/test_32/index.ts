@@ -10,5 +10,5 @@ type getDataAndPos = Data & { position: number };
  * @argument data - { name: string; age: number }[]
  * @returns data - { name: string; age: number, position: number }[]
  */
-export const getDataWithPosition = (data: Data[]): getDataAndPos[] =>
-  data.map(({ name, age }, index) => ({ name, age, position: index + 1 }));
+export const getDataWithPosition = (dataList: Data[]): getDataAndPos[] =>
+  dataList.map((data, index) => ({ ...data, position: index + 1 }));
