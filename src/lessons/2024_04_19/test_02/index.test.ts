@@ -4,9 +4,9 @@ import { dataAndIndexes } from ".";
 describe("dataAndIndexes", () => {
   test("Deve ritornare la lista con oggetti che hanno gli stessi dati e index", () => {
     const input = [
-      { name: "Olga", age: 24 },
-      { surname: "Bruno", height: 1.64 },
-      { middlename: "Fernandez", weight: 75 },
+      { name: "Olga", age: 24, index: 100 },
+      { surname: "Bruno", height: 1.64, index: 100 },
+      { middlename: "Fernandez", weight: 75, index: 100 },
     ];
     const output = [
       { name: "Olga", age: 24, index: 0 },
@@ -15,4 +15,4 @@ describe("dataAndIndexes", () => {
     ];
     expect(dataAndIndexes(input)).toStrictEqual(output);
   });
-});
+}); 
