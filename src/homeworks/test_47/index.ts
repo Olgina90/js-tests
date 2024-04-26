@@ -1,11 +1,11 @@
+type DataInput = Record<"year" | "month" | "day", number>;
 
-type dataInput = Record<"year" | "month" | "day", number>
+const getDate = ({ year, month, day }: DataInput): Date =>
+  new Date(year, month, day);
+const getDataOutput = (data: DataInput): string => {
+  return getDate(data).toDateString();
+};
 
-const getData = ({year, month, day}: dataInput): Date => new Date(year, month, day)
-const getDataOutput = (data: dataInput): string => {
-    return getData(data).toDateString()
-}
-
-export const getDates = (list: dataInput[]): string[] => {
-    return list.map(getDataOutput)
-}
+export const getDates = (list: DataInput[]): string[] => {
+  return list.map(getDataOutput);
+};
