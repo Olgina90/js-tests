@@ -11,8 +11,8 @@ describe("se text non ha searchValue", () => {
 
 describe("se text ha searchValue", () => {
   test("dovrebbe tornare `text` con il searchValue rimpiazzato da replaceValue", () => {
-    expect(
-      replace("Davide ha guidato la macchina", "Davide", "Olga")
-    ).toBe("Olga ha guidato la macchina");
+    expect(replace("Davide ha guidato la macchina", "Davide", "Olga")).toBe(
+      "Olga ha guidato la macchina"
+    );
   });
 });
