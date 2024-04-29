@@ -1,7 +1,7 @@
-const getName = (name: string): string => {
-    return name.split('').reverse().join('')
-}
+const getReversedWord = (word: string): string => {
+  return word.split("").reverse().join("");
+};
 
-export const reverseWords = (list:string[]): string[] => {
-    return list.map(getName)
+export const reverseWords = (list: string[]): string[] => {
+  return list.map(getReversedWord);
 };
