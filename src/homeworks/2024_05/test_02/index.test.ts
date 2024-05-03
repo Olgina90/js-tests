@@ -1,25 +1,11 @@
-import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
-import { getAges } from ".";
+import { describe, expect, test } from "vitest";
+import { capitalize } from ".";
 
-describe("getAges", () => {
-  beforeEach(() => {
-    vi.useFakeTimers();
-  });
+describe("capitalize", () => {
+  test("Deve ritornare la stessa lista con le stringhe che iniziano con la lettera maiuscola ed il resto delle lettere minuscole", () => {
+    const input = ["MaRiO", "dAvIde", "paolo", "niCColò", "gIAnni"];
+    const output = ["Mario", "Davide", "Paolo", "Niccolò", "Gianni"];
 
-  afterEach(() => {
-    vi.useRealTimers();
-  });
-  test("Deve ritornare la stessa lista con l'eta' attuale di ogni data di nascita", () => {
-    vi.setSystemTime(new Date("Fri May 03 2024"));
-    const input = [
-      new Date("Apr 03, 2003"),
-      new Date("Apr 11, 2002"),
-      new Date("Jun 27, 2000"),
-      new Date("Mar 24, 1979"),
-      new Date("Feb 02, 1976"),
-    ];
-    const output = [21, 22, 23, 45, 48];
-
-    expect(getAges(input)).toStrictEqual(output);
+    expect(input.map(capitalize)).toStrictEqual(output);
   });
 });
