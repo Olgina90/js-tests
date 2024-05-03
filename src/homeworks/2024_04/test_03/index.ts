@@ -1,5 +1,5 @@
-const toNumber = (numString: string): number => {
-  return Number(numString);
+const toNumber = (value: string): number => {
+  return Number(value);
 };
 
 const getMin = (input: string): number => {
