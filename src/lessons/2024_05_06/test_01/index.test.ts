@@ -10,15 +10,16 @@ describe("getAges", () => {
     vi.useRealTimers();
   });
   test("Deve ritornare la stessa lista con l'eta' attuale di ogni data di nascita", () => {
-    vi.setSystemTime(new Date("Fri May 03 2024"));
+    vi.setSystemTime(new Date("May 03, 2024"));
     const input = [
       new Date("Apr 03, 2003"),
       new Date("Apr 11, 2002"),
       new Date("Jun 27, 2000"),
       new Date("Mar 24, 1979"),
       new Date("Feb 02, 1976"),
+      new Date("May 03, 1990"),
     ];
-    const output = [21, 22, 23, 45, 48];
+    const output = [21, 22, 23, 45, 48, 34];
 
     expect(getAges(input)).toStrictEqual(output);
   });
