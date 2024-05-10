@@ -3,7 +3,7 @@ const getAge = (birthDate: Date): number => {
   const currentYear = today.getFullYear();
   const birthYear = birthDate.getFullYear();
 
-  const birthday = birthDate;
+  const birthday = new Date(birthDate);
   birthday.setFullYear(currentYear);
 
   const hasBirthdayPassed = today >= birthday;
